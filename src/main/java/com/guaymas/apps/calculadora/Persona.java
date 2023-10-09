@@ -5,15 +5,15 @@ import javax.swing.JOptionPane;
 
 
 class Persona {
-    
+    /**Se introduce el nombre*/
     private String nombre;
-    
+    /**Se introduce la fecha de nacimiento*/
     private String fechaNacimiento;
     /**H pra hombre y M para mujer*/
     private String sexoNacimiento;
     /**Dos letras que corresponde a la entidad federeativa de nacimiento*/
     private String entidadNacimiento;
-    
+    /**Unir los caracteres*/
     private String curpg = "";
    
     
@@ -106,13 +106,13 @@ class Persona {
       
       
        
-       int identificador = (int) (Math.random()*9+1);
+       String identificador = (String) ("A");
        String n = String.valueOf(identificador);
        char L17 = n.charAt(0);
        
         
        
-       identificador = (int) (Math.random()*9+1);
+       int identificador2 = (int) (1);
        String b = String.valueOf(identificador);
        char L18 = b.charAt(0);
        
